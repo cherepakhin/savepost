@@ -1,0 +1,1 @@
+2019-08-06 08:09:46,765 INFO ru.dfsystems.savepost.controller.SavePostController [http-nio-8080-exec-1] POST:{"name": "msi", "ip": "192.168.1.20"}
