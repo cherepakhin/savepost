@@ -16,6 +16,7 @@ import java.nio.file.Paths;
 @RestController
 @RequestMapping("/log")
 public class SavePostController {
+
     public Logger logger = LoggerFactory.getLogger(SavePostController.class);
 
     @Value("${logging.file}")
