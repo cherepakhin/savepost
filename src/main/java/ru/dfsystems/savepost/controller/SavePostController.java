@@ -18,11 +18,11 @@ public class SavePostController {
     public final Logger logger = LoggerFactory.getLogger(SavePostController.class);
 
     @Value("${logging.file}")
-    private String loggingfile;
+    private String loggingFile;
 
     @GetMapping
     public ResponseEntity<String> getLog() throws IOException {
-        String content = new String(Files.readAllBytes(Paths.get(loggingfile)));
+        String content = new String(Files.readAllBytes(Paths.get(loggingFile)));
         return ResponseEntity.ok().contentType(MediaType.APPLICATION_JSON_UTF8).body(content);
     }
 
