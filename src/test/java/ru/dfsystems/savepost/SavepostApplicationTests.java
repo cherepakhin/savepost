@@ -13,8 +13,6 @@ public class SavepostApplicationTests {
 
 	@Test
 	public void contextLoads() {
-		// Для проверки почты
-//		fail();
 	}
 
 }
